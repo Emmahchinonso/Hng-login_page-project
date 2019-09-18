@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  background: #7289bfd9;
+  margin: auto;
+  padding: 30px 50px;
+  height: 100vh;
+}
+
+header{
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header div button {
+  border-radius: 15px;
+  border: 0;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+header div button .header-btn {
+  text-decoration: none;
+  color: #000;
+  padding: 20px 12px;
+}
+
+form {
+  max-width: 400px;
+  background: rgba(0, 0, 0, 0.329);
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 7px;
+  height: 400px;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  max-width: 312px;
+  margin: 0 auto;
+}
+
+.btn input {
+  width: 100%;
+  margin: 10px auto;
+  padding: 15px 48px;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  background: #e82323;
+}
+
+.username, .password {
+  margin: 0 auto;
+  max-width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+}
+
+.username input, .password input{
+  margin: 15px 0;
+  width: 60%;
+  border: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color:#2c2c2c;
+  height: auto;
+  line-height: normal;
+  font-size: 0.8571em;
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  box-shadow: none;
+  background-clip: padding-box;
+}
+
+.input-icon {
+  margin: 15px 0;
+
+  display: flex;
+}
+
+.input-icon-span {
+ 
+
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+  background-color:#FFFFFF;
+  border-left: 1px solid #E3E3E3;
+
+  color:#555555;
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+  align-items: center;
+  padding: .6rem .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+.input-icon-span i {
+  width: 17px;  
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+footer .container {
+  display: flex;
+  width: 960px;
+}
+
+
+footer .container .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10004;";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10006;";
+}
