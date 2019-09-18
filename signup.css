@@ -1,0 +1,153 @@
+body{
+    padding:0px;
+    margin:0px;
+    background: #fff ;
+    padding-left: 15em;
+    padding-top: 5em;
+    }
+    .welcome{
+
+        padding:2px 0 0 10px;
+        background: blue;
+        color:#fff;
+        border-top-left-radius: 2%;
+        border-bottom-left-radius: 2%;
+        width:500px;
+    }
+    .welcome h2{
+        text-align: center;
+        font-weight: bolder;
+        justify-content: center;
+        padding-top: 1em;
+        color:#fff;
+        }
+        .signup{
+            box-sizing: border-box;
+            text-align: center;
+            font-weight: bolder;
+            font-style: monospace;
+            justify-content: center;
+            padding-top: 0.2em;
+            color:blue;
+            }
+        .welcome p{
+            padding:7px 0 0 7px;  
+        }
+p{
+    padding:0px;
+    margin:0px;
+    font-family: 'monospace';
+    display: inline-block;
+   
+}
+.lion{
+    border-radius:50%;
+    margin-top:2em;
+}
+.container{
+	display:inline-flex;
+    flex-wrap: wrap;
+}
+.child{
+	flex: 1;
+	justify-content:center;
+	align-items: center;
+}
+
+.firstname{
+    padding-bottom: 15px;
+    text-align: center;
+    font-family:'Lobster';
+}
+
+.myform{
+    box-sizing: border-box;
+    padding: 10px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius:7px;
+    border-bottom-left-radius:7px;
+    border: 2px solid blue;
+    width:400px;
+
+}
+.form-wrapper{
+    background:wheat;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius:7px;
+    border-bottom-left-radius:7px;
+    border: 2px solid #fff;
+}
+
+ .contact{
+    background: green;
+    color:#fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    height:40px;
+    justify-content: center;
+    font-size: 1.8em;
+}
+#contact{
+    background: green;
+    color:#fff;
+}
+
+.submit{
+    background:blue;
+    color:#fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height:40px;
+    font-size: 1.8em;
+
+    
+}
+#submit{
+    background: blue;
+    color:#fff;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+footer{
+    background: #000;
+    color:#fff;
+
+}
+a:link{
+    text-decoration: none;
+    cursor:pointer;
+    color: green;
+}
+.center{
+    text-align: center;
+}
+#result{
+    color:red;
+}
+#result1{
+    color:red;
+}
+#result2{
+    color:red;
+}
+#result3{
+    color:red;
+}
+#result4{
+    color:red;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .container{
+      display:block;
+    }
+   
+  }

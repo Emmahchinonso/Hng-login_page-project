@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Leo | Signup</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <header></header>
+
+        <section>
+<div class="container">
+        <div class="child">
+    <img src="images/lion.jpg" alt="image of lion" class="lion"  style="height: 80px; width:80px;">
+        <div class="welcome">
+        <h2>Welcome </h2><hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aperiam deserunt natus dolorum iure quasi minima nam aliquam tempore corrupti, cumque, numquam incidunt placeat laboriosam tenetur recusandae ad aspernatur animi mollitia voluptatem! Maxime, voluptatum voluptatem ut quia molestias quas architecto commodi labore odit error enim nemo distinctio excepturi veritatis odio?</p>
+    </div></div>
+
+<div class="child">
+
+<div class="myform" >
+    <h1 class="signup">Sign Up</h1><hr><br>
+
+    <form action="process.php" method="post" form enctype="multipart/form-data" onsubmit = "return validate();">
+
+        <div class="firstname">
+        <div class="form-wrapper">
+        <input  type="text" name="firstname" id="firstname" size="20" required placeholder="First Name">
+        <span id="result1"> </span>
+        </div> <br>
+
+        <div class="form-wrapper">
+        <input  type="text" name="lastname" id="lastname" size="20" required placeholder="Last Name">
+        <span id="result1"> </span>
+        </div><br>
+
+        <div class="form-wrapper">
+        <input type="email" name="email" id="email" size="20" required placeholder="Email">
+        <span id="result2"> </span>
+        </div><br>
+
+        <div class="form-wrapper">
+        <input type="number"  name="phonenumber" id="phonenumber" size="20" required placeholder="Phone Number">
+        <span id="result3"> </span>
+        </div><br>
+          
+        <div class="form-wrapper">
+        <input type="password"  name="pwd" id="pwd" size="20" required placeholder="Password">
+        <span id="result3"> </span>
+        </div><br>
+
+        <div class="form-wrapper">
+        <input type="password"  name="repeadpwd" id="repeatpwd" size="20" required placeholder="Repeat password">
+        <span id="result3"> </span>
+        </div><br>
+
+        <div class="submit">
+        <input type="submit" name="submit"  id="submit" value="SUBMIT">
+        </div>
+        <div id="result"> </div>
+    </form>
+    </div>
+  </div>
+  </div>
+  </div>
+        </section>
+
+        <footer>
+            
+        </footer>
+
+    
+    </body>
+</html>
