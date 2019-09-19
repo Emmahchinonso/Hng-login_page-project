@@ -30,13 +30,62 @@ header div button .header-btn {
   padding: 20px 12px;
 }
 
+.header-main {
+  display: flex; 
+  justify-content: space-between; 
+  width: 180px; 
+  align-items: center;
+}
+
 form {
   max-width: 400px;
   background: rgba(0, 0, 0, 0.329);
   margin: 0 auto;
   margin-top: 100px;
   border-radius: 7px;
-  height: 400px;
+  height: 460px;
+}
+
+form .img {
+  width: 120px; 
+  height: 120px; 
+  margin: 0 auto; 
+  position: relative; top: -40px; 
+  border-radius: 50%; 
+  background: brown;
+}
+
+form .leo {
+  color: white; 
+  font-size: 25px; 
+  text-align: center; 
+  position: relative; 
+  top: -20px;
+}
+
+form .form-check {
+  display: flex; 
+  align-items: center;
+}
+
+form .form-check .checkbox {
+  width: 200px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+form .form-check .checkbox .switch {
+  margin-left: 5px;
+}
+
+form .form-check .checkbox .log-in-msg {
+  width: 130px
+}
+
+form .forgot-password {
+  width: 200px; 
+  text-align: center
 }
 
 .btn {
@@ -83,6 +132,7 @@ form {
   box-shadow: none;
   background-clip: padding-box;
 }
+
 
 .input-icon {
   margin: 15px 0;
