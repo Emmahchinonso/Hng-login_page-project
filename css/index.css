@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+body,html{
+  min-height: 100vh;
+  background: #7289bfd9;
+  font-size: 10px;
+  /* clip-path: polygon(0 0, 0% 100%, 100% 0); */
+}
+
+.container{
+  /* background: #e3e456; */
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.content{
+  text-align: center;
+  font-size: 2rem;
+  color: #eee;
+}
+
+.team-name{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #c40e0ee7;
+}
+
+.logo_image{
+  display: block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.logo_image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  filter: grayscale(1);
+}
+
+.logo_text{
+  padding-left: .5rem;
+  font-size: 2rem;
+  color: #c40e0ee7;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+nav{
+  width: 100%;
+  position: fixed;
+  height: 70px;
+  padding: 10px;
+}
+
+.logo{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px 0 0 10px;
+  border: 0;
+  width: 10rem;
+  border-radius: 2rem;
+}
+
+.login{
+  background: transparent;
+  border: .2rem solid #c40e0ee7;
+  transition: background .5s ease;
+}
+
+.login a{
+  text-transform: uppercase;
+  color: #eee;
+  transition: .5s ease;
+  font-weight: 700;
+}
+
+.signup{
+  background: #c40e0ee7;
+  transition: background .5s ease;
+}
+
+.signup a{
+  color: #eee;
+  text-transform: uppercase;
+  transition: .5s ease;
+  font-weight: 700;
+}
+
+/*login hover*/
+.login:hover{
+  background: #eee;
+  border-color: transparent;
+}
+
+.login:hover a{
+  color: #c40e0ee7;
+}
+
+/*signup hover*/
+.signup:hover{
+  background: #eee;
+}
+
+.signup:hover a{
+  color: #c40e0ee7;
+}
+
+footer{
+  position: absolute;
+  bottom:0;
+  width: 100%;
+}
+
+.row{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.row p{
+  font-size: 1.5rem;
+  color: #eee;
+}
