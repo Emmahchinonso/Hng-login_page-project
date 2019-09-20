@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 
 $res =mysqli_query($conn, "SELECT * FROM user WHERE email='$email' AND psw = '$psw' ");
 $query_return = mysqli_fetch_array($res, MYSQLI_ASSOC);
-echo "Welcome " . $query_return['firstname']; 
+echo "Welcome " . $query_return['firstname'] ." ". $query_return['lastname'] ; 
 if(!$res){
     printf("Error: %s\n", mysqli_error($conn));
     
