@@ -20,11 +20,7 @@ include ('config.php');
     <header>
       <div style="display: flex; justify-content: space-between; width: 180px; align-items: center;">
         <p>Not Registered?</p>
-<<<<<<< HEAD:login.html
-        <button class="btn"><a href="signup.html" class="btn">Sign Up</a></button>
-=======
         <button><a href="signup.html" class="header-btn">Sign Up</a></button>
->>>>>>> ab31acba6425552f75bd05b07115c5c8ac5694b0:login.php
       </div>
     </header>
     <form action="dashboard.php" method="POST">

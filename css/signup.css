@@ -4,11 +4,13 @@ body{
     background: #fff ;
     padding-left: 15em;
     padding-top: 5em;
+    background: #7289bfd9;
+    box-sizing: border-box;
     }
     .welcome{
-
-        padding:2px 0 0 10px;
-        background: blue;
+        text-align: center;
+        padding:2em;
+        background: rgba(0,0,0,.65);
         color:#fff;
         border-top-left-radius: 2%;
         border-bottom-left-radius: 2%;
@@ -28,7 +30,7 @@ body{
             font-style: monospace;
             justify-content: center;
             padding-top: 0.2em;
-            color:blue;
+            color:rgba(0,0,0,.65);
             }
         .welcome p{
             padding:7px 0 0 7px;  
@@ -67,7 +69,7 @@ p{
     border-top-left-radius: 7px;
     border-bottom-right-radius:7px;
     border-bottom-left-radius:7px;
-    border: 2px solid blue;
+    border: 2px solid rgba(0,0,0,.65);
     width:400px;
 
 }
