@@ -1,3 +1,6 @@
+<?php
+include ('config.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,10 +18,10 @@
     <header>
       <div style="display: flex; justify-content: space-between; width: 180px; align-items: center;">
         <p>Not Registered?</p>
-        <button><a href="" class="header-btn">Sign Up</a></button>
+        <button><a href="signup.html" class="header-btn">Sign Up</a></button>
       </div>
     </header>
-    <form action="">
+    <form action="dashboard.php" method="POST">
       <div class="img" style="width: 120px; height: 120px; margin: 0 auto; position: relative; top: -40px; border-radius: 50%; background: brown;"></div>
       <p class="leo" style="color: white; font-size: 25px; text-align: center; position: relative; top: -20px;">LEO</p>
       <div class="username">
@@ -28,7 +31,7 @@
           </span>
         </div>
           
-        <input type="text" id="usrname" name="usrname" placeholder="Username" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
       </div>
 
       <div class="password">
@@ -38,11 +41,11 @@
           </span>
         </div>
 
-        <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="password" required>
+        <input type="password" id="password" name="psw" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="password" required>
       </div>
   
       <div class="btn">
-        <input type="submit" value="Login">
+        <input type="submit" name = "submit" value="Login">
       </div>
 
       <div style="display: flex">
