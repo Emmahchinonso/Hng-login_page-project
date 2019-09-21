@@ -20,7 +20,6 @@
         <button class="btn"><a href="signup.php" class="btn">Sign Up</a></button>
       </div>
     </header>
-    <form action="">
         <img src="images/lion.jpg" alt="" class="img" style="width: 120px; height: 120px; margin: 0 auto; position: relative; top: -40px; border-radius: 50%; background: brown;">
       <p class="leo" style="color: white; font-size: 25px; text-align: center; position: relative; top: -20px;">LE</span><i class="fa fa-globe fa-spin" style="color:#e82323;"></i><span class="center"></span></p>
       <form action="process.php" method="post">
