@@ -1,6 +1,3 @@
-<?php
-include ('config.php');
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,12 +17,13 @@ include ('config.php');
     <header>
       <div style="display: flex; justify-content: space-between; width: 180px; align-items: center;">
         <p>Not Registered?</p>
-        <button><a href="signup.html" class="header-btn">Sign Up</a></button>
+        <button class="btn"><a href="signup.php" class="btn">Sign Up</a></button>
       </div>
     </header>
-    <form action="dashboard.php" method="POST">
-      <div class="img" style="width: 120px; height: 120px; margin: 0 auto; position: relative; top: -40px; border-radius: 50%; background: brown;"></div>
+    <form action="">
+        <img src="images/lion.jpg" alt="" class="img" style="width: 120px; height: 120px; margin: 0 auto; position: relative; top: -40px; border-radius: 50%; background: brown;">
       <p class="leo" style="color: white; font-size: 25px; text-align: center; position: relative; top: -20px;">LE</span><i class="fa fa-globe fa-spin" style="color:#e82323;"></i><span class="center"></span></p>
+      <form action="process.php" method="post">
       <div class="username">
         <div class="input-icon">
           <span class="input-icon-span">
@@ -33,7 +31,7 @@ include ('config.php');
           </span>
         </div>
           
-        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="text" id="email" name="email" placeholder="Email" required>
       </div>
 
       <div class="password">
@@ -43,12 +41,13 @@ include ('config.php');
           </span>
         </div>
 
-        <input type="password" id="password" name="psw" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="password" required>
+        <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="password" required>
       </div>
   
       <div class="btn">
-        <input type="submit" name = "submit" value="Login">
+        <input type="submit" value="Login">
       </div>
+      </form>
 
       <div style="display: flex">
         <div class="checkbox" style="width: 200px; display: flex; justify-content: space-between">

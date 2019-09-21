@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Leo | Signup</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/signup.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster\">
+        <link rel="stylesheet" type="text/css" href="font/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/538faed953.js"></script>
+    </head>
+    <body>
+        <section>
+<div class="container">
+        <div class="child">
+    <img src="images/lion.jpg" alt="image of lion" class="lion"  style="height: 80px; width:80px;">
+        <div class="welcome">
+        <h2>Welcome To Team LE</span><i class="fa fa-globe fa-spin" style="color:#e82323;"></i><span class="center"></span></h2><hr>
+        <p>We are  Team Leo,a group of dedicated developers<br>
+            we are always up to the task because we are the leaders<br>
+
+
+        </p>
+    </div></div>
+
+<div class="child">
+
+<div class="myform" >
+    <h1 class="signup">Sign Up</h1><hr><br>
+
+    <form action="process.php" method="post" form enctype="multipart/form-data">
+
+        <div class="firstname">
+        <div class="form-wrapper">
+        <input  type="text" name="firstname" id="firstname" size="20" required placeholder="First Name">
+        <span id="result1"> </span>
+        </div> <br>
+
+        <div class="form-wrapper">
+        <input  type="text" name="lastname" id="lastname" size="20" required placeholder="Last Name">
+        <span id="result1"> </span>
+        </div><br>
+
+        <div class="form-wrapper">
+        <input type="email" name="email" id="email" size="20" required placeholder="Email">
+        <span id="result2"> </span>
+        </div><br>
+
+        <div class="form-wrapper">
+        <input type="number"  name="phonenumber" id="phonenumber" size="20" required placeholder="Phone Number">
+        <span id="result3"> </span>
+        </div><br>
+          
+        <div class="form-wrapper">
+        <input type="password"  name="password" id="password" size="20" required placeholder="Password">
+        <span id="result3"> </span>
+        </div><br>
+
+       
+
+        <div class="submit">
+        <input type="submit" name="submit"  id="submit" value="SUBMIT">
+        </div>
+        <div id="result"> </div>
+    </form>
+    </div>
+  </div>
+  </div>
+  </div>
+        </section>
+
+        <footer>
+            
+        </footer>
+
+    
+    </body>
+</html>
